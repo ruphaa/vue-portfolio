@@ -11,7 +11,7 @@ export default {
 
 <style>
     svg rect {
-        fill: #F5F7FA;
+        fill: var(--background-color);
         width: 100rem;
         height: 100rem;
     }

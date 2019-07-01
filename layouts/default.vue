@@ -5,7 +5,11 @@
         <li><nuxt-link class="nav-link" to="/">Home</nuxt-link></li>
         <li><nuxt-link class="nav-link" to="/projects">Projects</nuxt-link></li>
         <li><nuxt-link class="nav-link" to="/blog">Blog</nuxt-link></li>
+        <li><nuxt-link class="nav-link" to="/speaking">Speaking</nuxt-link></li>
         <li><nuxt-link class="nav-link" to="/about">About</nuxt-link></li>
+        <li>
+          <div class="theme_switcher"></div>
+        </li>
       </ul>
     </div>
     <div class="container">
@@ -28,6 +32,25 @@ export default {
   @import url('https://fonts.googleapis.com/css?family=Lato:700');
   @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
   /* @import url('https://fonts.googleapis.com/css?family=BenchNine'); */
+
+  :root {
+    --primary-font-color: #546e7a;
+    --primary-pink-color: #F47895;
+    --background-color: #F5F7FA;
+    --highlight-color: #fce4ec;
+    --dark-grey-color: #585a5c;
+    --light-grey-color: #9CA8AE;
+    --very-light-grey-color: #d8d8d8;
+    --white-color: #FFFFFF;
+    --normal-grey-color: #999;
+    --lightest-grey-color: #EAF1F6;
+    --mark-pink-color: #f8bbd0;
+  }
+
+  [data-theme="dark"] {
+    --background-color: #16141A;
+  }
+
   html {
       font-size: 10px;
   }
@@ -35,14 +58,9 @@ export default {
   body {
       box-sizing: border-box;
       height: 100vh;
-      /* font-family: 'Montserrat', sans-serif; */
-      /* font-family: 'Lato', sans-serif; */
       font-family: 'Josefin Sans', sans-serif;
-      /* font-family: 'BenchNine', sans-serif; */
-      color: #546e7a;
-      background-color: #F5F7FA;
-      /* background-color: #000; */
-      /* color: lime; */
+      color: var(--primary-font-color);
+      background-color: var(--background-color);
   }
 
   * {
@@ -51,8 +69,7 @@ export default {
       box-sizing: border-box;
   }
   ::selection {
-    /* background-color: #f8bbd0; */
-    background-color: #fce4ec;
+    background-color: var(--highlight-color);
   }
   .wrapper {
       padding: 4rem 5rem;
@@ -69,27 +86,39 @@ export default {
     font-size: 1.4rem;
     line-height: 15.04px;
     font-weight: 700;
-    color: #546e7a;
-    /* color: lime; */
+    color: var(--primary-font-color);
     margin-right: 20px;
   }
   .navbar ul li a {
     text-decoration: none;
-    color: #585a5c;
-    /* color: lime; */
+    color: var(--dark-grey-color);
+  }
+
+  a.nuxt-link-exact-active {
+    color: var(--light-grey-color) !important;
   }
 
   .navbar ul li a:hover {
-    color: #9CA8AE;
+    color: var(--light-grey-color);
   }
 
   .container {
-    /* height: auto; */
     height: 80vh;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-    /* align-content: center; */
+  }
+  @media only screen and (max-width: 1000px) {
+    html {
+      font-size: 6px;
+    }
+    .navbar ul {
+      justify-content: center;
+      align-items: center;
+    }
+    .navbar ul li {
+      font-size: 1.8rem;
+    }
+    .navbar ul li:last-child {
+      margin-right: 0;
+    }
   }
 
 </style>
