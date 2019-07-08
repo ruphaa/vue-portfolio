@@ -2,7 +2,7 @@
     <section class="about">
         <h1>Hi! I'm Ruphaa 😀</h1>
         <div class="desc">
-            <p>I'm a <mark>Frontend Engineer</mark>, currently working with India's Hottest Startup , Freshworks.</p>
+            <p>I'm a <mark>Frontend Engineer</mark>, currently working with India's Hottest Startup, Freshworks.</p>
             <p>I specialise in Frontend Development and design systems. I ❤️ all things about <mark>web</mark>. I am super passionate about learning and building stuff. Thirst for learning more in me will never settle.</p>
             <p>While I’m not coding, you can find me doing yoga or dance or watching Friends on Netflix may be for the zillionth time 😅</p>
             <p>The Quote that drives me to work hard and never quit - <mark>"Shoot for the moon. Even if you miss, you'll land among the stars.”</mark></p>

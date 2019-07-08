@@ -28,10 +28,9 @@ export default {
 </script>
 
 <style>
-  @import url('https://fonts.googleapis.com/css?family=Montserrat');
-  @import url('https://fonts.googleapis.com/css?family=Lato:700');
+  /* @import url('https://fonts.googleapis.com/css?family=Montserrat'); */
+  /* @import url('https://fonts.googleapis.com/css?family=Lato:700'); */
   @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
-  /* @import url('https://fonts.googleapis.com/css?family=BenchNine'); */
 
   :root {
     --primary-font-color: #546e7a;
@@ -73,6 +72,8 @@ export default {
   }
   .wrapper {
       padding: 4rem 5rem;
+      max-width: 1150px;
+      margin: 0 auto;
   }
 
   .navbar ul {
@@ -95,7 +96,7 @@ export default {
   }
 
   a.nuxt-link-exact-active {
-    color: var(--light-grey-color) !important;
+    color: var(--primary-pink-color) !important;
   }
 
   .navbar ul li a:hover {
