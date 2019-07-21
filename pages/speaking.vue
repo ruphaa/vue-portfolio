@@ -58,6 +58,23 @@
                         <span class="link"><a href="https://slides.com/ruphaaganesh/ember-intro/fullscreen" target="_blank">Slides</a></span>
                     </div>
                 </li>
+                <li class="conference">
+                    <div class="conference__title">
+                        Frontend DevHours - Fontastic Variable Fonts
+                    </div>
+                    <div class="conference__time">
+                        <i class="fa fa-calendar"></i>
+                        <time>Jul 19, 2019</time>
+                    </div>
+                    <div class="conference__location">
+                        <i class="fa fa-map-marker"></i>
+                        <span>Chennai, India</span>
+                    </div>
+                    <div class="conference__slides">
+                        <i class="fa fa-file-powerpoint-o"></i>
+                        <span class="link"><a href="https://github.com/ruphaa/variable-fonts-experiment" target="_blank">Slides</a></span>
+                    </div>
+                </li>
             </ul>
         </div>
     </section>
