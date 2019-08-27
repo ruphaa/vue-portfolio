@@ -80,7 +80,7 @@
     }
 
     .post__content p{
-        margin-bottom: 1.6rem;
+        margin-bottom: 2.5rem;
         margin-top: 1.6rem;
     }
 
