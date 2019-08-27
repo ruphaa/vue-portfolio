@@ -1,3 +1,4 @@
+const path = require('path');
 module.exports = {
   /*
   ** Headers of the page
@@ -35,6 +36,15 @@ module.exports = {
           exclude: /(node_modules)/
         })
       }
+
+      //add frontmatter-markdown-loader
+      config.module.rules.push(
+        {
+          test: /\.md$/,
+          include: path.resolve(__dirname, "content"),
+          loader: "frontmatter-markdown-loader"
+        }
+      )
     }
   }
 }
