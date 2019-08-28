@@ -51,7 +51,8 @@
     .post__content {
         margin-top: 2rem;
         font-size: 2rem;
-        margin-bottom: 4rem;
+        margin-bottom: 5rem;
+        border-bottom: 1px solid var(--very-light-grey-color);
     }
 
     .post__title .external-link, .post__content p{
@@ -105,7 +106,7 @@
         line-height: 1.3;
     }
 
-    .post__content ul li code {
+    .post__content code {
         background-color: #f8bbd070;
     }
 
