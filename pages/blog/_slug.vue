@@ -106,7 +106,7 @@
         line-height: 1.3;
     }
 
-    .post__content code {
+    .post__content ul li code, .post__content p code {
         background-color: #f8bbd070;
     }
 
