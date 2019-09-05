@@ -14,7 +14,7 @@
                     </div>
                 </li> -->
                 <li class="project-item">
-                    <div class="p-image"><img src="https://cdn.dribbble.com/users/310943/screenshots/3443144/feedly-bot.png" alt=""></div>
+                    <div class="p-image"><a href="https://twitter.com/dailydevcodes" target="_blank"><img src="https://cdn.dribbble.com/users/310943/screenshots/3443144/feedly-bot.png" alt=""></a></div>
                     <div class="p-title">
                         <h3>Twitter Bot</h3>
                     </div>
@@ -24,7 +24,7 @@
                     </div>
                 </li>
                 <li class="project-item">
-                    <div class="p-image"><img src="https://1ycbx02rgnsa1i87hd1i7v1r-wpengine.netdna-ssl.com/wp-content/uploads/2017/07/product-hunt-2.png" alt=""></div>
+                    <div class="p-image"><a href="https://vue-producthunt-clone.netlify.com" target="_blank"><img src="https://1ycbx02rgnsa1i87hd1i7v1r-wpengine.netdna-ssl.com/wp-content/uploads/2017/07/product-hunt-2.png" alt=""></a></div>
                     <div class="p-title">
                         <h3>Product Hunt Clone</h3>
                     </div>
@@ -34,7 +34,7 @@
                     </div>
                 </li>
                 <li class="project-item">
-                    <div class="p-image"><img src="https://t3.ftcdn.net/jpg/00/11/34/68/240_F_11346882_xYOMm9QwkASUPdaRxuG64lvQrjClRcTE.jpg" alt=""></div>
+                    <div class="p-image"><a href="https://vue-pictionary.netlify.com/" target="_blank"><img src="https://t3.ftcdn.net/jpg/00/11/34/68/240_F_11346882_xYOMm9QwkASUPdaRxuG64lvQrjClRcTE.jpg" alt=""></a></div>
                     <div class="p-title">
                         <h3>Pictionary</h3>
                     </div>
@@ -44,7 +44,7 @@
                     </div>
                 </li>
                 <li class="project-item">
-                    <div class="p-image"><img src="https://cdn.dribbble.com/users/422285/screenshots/2221565/pomodoro.png" alt=""></div>
+                    <div class="p-image"><a href="https://pomodora-time-tracker.netlify.com" target="_blank"><img src="https://cdn.dribbble.com/users/422285/screenshots/2221565/pomodoro.png" alt=""></a></div>
                     <div class="p-title">
                         <h3>Pomodoro Timer App</h3>
                     </div>
@@ -54,7 +54,7 @@
                     </div>
                 </li>
                <li class="project-item">
-                    <div class="p-image"><img src="https://st2.depositphotos.com/4341177/8219/v/950/depositphotos_82192910-stock-illustration-hand-drawn-vintage-pastry-shop.jpg" alt=""></div>
+                    <div class="p-image"><a href="https://ember-pastry-shop.netlify.com" target="_blank"><img src="https://st2.depositphotos.com/4341177/8219/v/950/depositphotos_82192910-stock-illustration-hand-drawn-vintage-pastry-shop.jpg" alt=""></a></div>
                     <div class="p-title">
                         <h3>Pastry Shop Website</h3>
                     </div>
@@ -64,7 +64,7 @@
                     </div>
                 </li>
                 <li class="project-item">
-                    <div class="p-image"><img src="https://cdn.dribbble.com/users/441305/screenshots/5477297/dribbble-school_4x.png" alt=""></div>
+                    <div class="p-image"><a href="https://dry-mountain-79163.herokuapp.com" target="_blank"><img src="https://cdn.dribbble.com/users/441305/screenshots/5477297/dribbble-school_4x.png" alt=""></a></div>
                     <div class="p-title">
                         <h3>React Powered TODO App</h3>
                     </div>
@@ -74,7 +74,7 @@
                     </div>
                 </li>
                 <li class="project-item">
-                    <div class="p-image"><img src="https://cdn.dribbble.com/users/136131/screenshots/1097442/login___notification.gif" alt=""></div>
+                    <div class="p-image"><a href="https://dribble-responsive-form.netlify.com/" target="_blank"><img src="https://cdn.dribbble.com/users/136131/screenshots/1097442/login___notification.gif" alt=""></a></div>
                     <div class="p-title">
                         <h3>Responsive Form - Dribble</h3>
                     </div>
@@ -84,7 +84,7 @@
                     </div>
                 </li>
                 <li class="project-item">
-                    <div class="p-image"><img src="https://cdn.dribbble.com/users/34632/screenshots/5852676/talent_search_4x.png" alt=""></div>
+                    <div class="p-image"><a href="https://github.com/ruphaa/search-app" target="_blank"><img src="https://cdn.dribbble.com/users/34632/screenshots/5852676/talent_search_4x.png" alt=""></a></div>
                     <div class="p-title">
                         <h3>Search Application</h3>
                     </div>
