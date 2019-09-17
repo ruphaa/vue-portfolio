@@ -5,6 +5,23 @@
             <ul class="conference-list">
                 <li class="conference">
                     <div class="conference__title">
+                        JSFoo - VueDay 2019
+                    </div>
+                    <div class="conference__time">
+                        <i class="fa fa-calendar"></i>
+                        <time>Aug 30, 2019</time>
+                    </div>
+                    <div class="conference__location">
+                        <i class="fa fa-map-marker"></i>
+                        <span>Bangalore, India</span>
+                    </div>
+                    <div class="conference__video">
+                        <i class="fa fa-caret-square-o-right"></i>
+                        <span class="link"><a href="https://www.youtube.com/watch?v=cR901Xmb1-I&feature=youtu.be&t=8370" target="_blank">Watch the video</a></span>
+                    </div>
+                </li>
+                <li class="conference">
+                    <div class="conference__title">
                         VueBLR #15 - Atomic Design using VUE
                     </div>
                     <div class="conference__time">
