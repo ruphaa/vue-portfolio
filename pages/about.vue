@@ -3,7 +3,7 @@
         <h1>Hi! I'm Ruphaa 😀</h1>
         <div class="desc">
             <p>I'm a <mark>Frontend Engineer</mark>, currently working with India's Hottest Startup, Freshworks.</p>
-            <p>I specialise in Frontend Development and design systems. I ❤️ all things about <mark>web</mark>. I am super passionate about learning and building stuff. Thirst for learning more in me will never settle.</p>
+            <p>I specialise in Frontend Development and design systems. I ❤️ all things about <mark>web</mark>. I am super passionate about learning and building stuff. I also give <nuxt-link class="nav-link" to="/speaking">talks</nuxt-link> at Meetups and Conference. Also co-organize couple of meetups - <a target="_blank" href="https://twitter.com/EmberChennai">@ChennaiEmberJS</a> and <a target="_blank" href="https://twitter.com/VueBLR">@VueBLR</a>, which am uber-excited about 😍. Thirst for learning more in me will never settle.</p>
             <p>While I’m not coding, you can find me doing yoga or dance or watching Friends on Netflix may be for the zillionth time 😅</p>
             <p>The Quote that drives me to work hard and never quit - <mark>"Shoot for the moon. Even if you miss, you'll land among the stars.”</mark></p>
         </div>    
@@ -52,6 +52,11 @@ export default {
         margin-top: 2rem;
         font-weight: 700;
         color: var(--primary-pink-color);
+    }
+    .about a {
+        text-decoration: none;
+        color: var(--primary-pink-color);
+        font-style: italic;
     }
   @media only screen and (max-width: 1000px) {
       .about {
